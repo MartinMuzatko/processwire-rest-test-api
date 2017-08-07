@@ -1,0 +1,17 @@
+{
+    "name": "martinmuzatko/processwire-rest-test-api",
+    "type": "project",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Martin Muzatko",
+            "email": "martin@happy-css.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"API\\": "classes/API"}
+    },
+    "require": {
+        "davedevelopment/stiphle": "^0.9.1"
+    }
+}
